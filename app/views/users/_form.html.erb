@@ -12,22 +12,26 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
+		<label> Name
+      <%= f.text_field :name %>
+		</label>
   </div>
   <div class="field">
-    <%= f.label :email %><br>
-    <%= f.text_field :email %>
+		<label> Email
+      <%= f.text_field :email %>
+		</label> 
   </div>
   <div class="field">
-    <%= f.label :inquiry %><br>
-    <%= f.text_area :inquiry %>
+    <label> Inquiry
+   	  <%= f.text_area :inquiry %>
+		</label>
   </div>
   <div class="field">
-    <%= f.label :phone %><br>
-    <%= f.text_field :phone %>
+		<label> Phone
+      <%= f.text_field :phone %>
+		</label>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit :class => 'button' %>
   </div>
 <% end %>
